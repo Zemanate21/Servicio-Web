@@ -11,5 +11,5 @@ function leerArchivoAsync(rutaArchivo) {
     });
 }
 
-const rutaDelArchivo = './Instrucciones.txt';
+const rutaDelArchivo = './input.txt';
 leerArchivoAsync(rutaDelArchivo);
