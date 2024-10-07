@@ -51,4 +51,48 @@ const Paciente = {
             Edad_Diagnostico: "40"
         }
     ],
+    Visitas: [
+        {
+            Id_Visitas: 1
+        }
+    ]
 }
+
+const Visitas = [
+    {
+        Id_Visitas:  1,
+        Fecha_Visita:  "2020-01-01",
+        Motivo:  "Consulta de rutina",
+        Doctor: {
+            Nombre: "Juan Carlos",
+            Apellidos: "Dorado Navia",
+            Especialidad: "Medicina General"
+        },
+        Diagnostico: "Saludable",
+        Medicamentos: "Sin medicamentos"
+    },
+    {
+        Id_Visitas:  2,
+        Fecha_Visita:  "2020-01-15",
+        Motivo:  "Consulta de rutina",
+        Doctor: {
+            Nombre: "Ana Carolina",
+            Apellidos: "Guzman Navia",
+            Especialidad: "Pediatría"
+        },
+        Diagnostico: "Saludable",
+        Medicamentos: "Sin medicamentos"
+    },
+    {
+        Id_Visitas:  3,
+        Fecha_Visita:  "2020-02-01",
+        Motivo:  "Analisis de sangre",
+        Doctor: {
+            Nombre: "Juan Carlos",
+            Apellidos: "Dorado Navia",
+            Especialidad: "Medicina General"
+        },
+        Diagnostico:  "Saludable",
+        Medicamentos: "Sin medicamentos"
+    }
+]
