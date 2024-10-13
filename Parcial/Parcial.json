@@ -1,0 +1,116 @@
+{
+    "Id_Futbolista": 1,
+    "Nombre": "Lionel Messi",
+    "Fecha_Nacimiento": "1987-06-24",
+    "Nacionalidad": "Argentina",
+    "Posicion": "Delantero",
+    "Activo": true,
+    "Equipos": [
+    {
+        "Id_Equipo": 1,
+        "Nombre": "FC Barcelona",
+        "Pais": "España",
+        "Periodo": {
+                        "Inicio": "2000-01-01",
+                        "Fin": "2021-08-10"
+        }
+    },
+    {
+        "Id_Equipo": 2,
+        "Nombre": "Paris Saint-Germain",
+        "Pais": "Francia",
+        "Periodo": {
+                        "Inicio": "2021-08-11",
+                        "Fin": "2023-06-30"
+                    }
+    }
+    ],
+    "Estadisticas": {
+        "Total_Partidos": 1000,
+        "Total_Goles": 750,
+        "Total_Faltas": 200,
+        "Total_Tarjetas_Rojas": 2,
+        "Total_Tarjetas_Amarillas": 50,
+        "Total_Tiros_Libres": 100,
+        "Total_Tiros_Esquina": 150
+    },
+    "Partidos":[
+        {
+            "Id_Partido": 1
+        } 
+    ]
+}
+
+
+{
+    "Id_Partido": 1,
+    "Fecha": "2021-05-10",
+    "Hora": "19:00",
+    "Estadio": "Camp Nou",
+    "Arbitro": "Juan Pérez",
+    "Equipo_Local": {
+        "Id_Equipo": 1,
+        "Nombre": "FC Barcelona"
+    },
+    "Equipo_Visitante": {
+        "Id_Equipo": 3,
+        "Nombre": "Real Madrid"
+    },
+    "Resultado": {
+        "Goles_Local": 3,
+        "Goles_Visitante": 2
+    },
+    "Estadisticas_Jugador": {
+        "Goles_Anotados": [
+        {
+            "Minuto": 34,
+            "Jugador": "Lionel Messi"
+        },
+        {
+            "Minuto": 67,
+            "Jugador": "Lionel Messi"
+        },
+        {
+            "Minuto": 78,
+            "Jugador": "Karim Benzema"
+        },
+        {
+            "Minuto": 85,
+            "Jugador": "Sergio Ramos"
+        },
+        {
+            "Minuto": 90,
+            "Jugador": "Gerard Piqué"
+        }
+        ],
+        "Faltas_Cometidas": [
+        {
+            "Minuto": 22,
+            "Jugador": "Gerard Piqué"
+        }
+        ],
+        "Tarjeta_Amarilla": [
+        {
+            "Minuto": 45,
+            "Jugador": "Casemiro"
+        }
+        ],
+        "Tarjeta_Roja": [],
+        "Tiros_Libres": [
+        {
+            "Minuto": 54,
+            "Jugador": "Lionel Messi"
+        }
+        ],
+        "Tiros_Esquina": [
+        {
+            "Minuto": 12,
+            "Jugador": "Toni Kroos"
+        },
+        {
+            "Minuto": 29,
+            "Jugador": "Jordi Alba"
+        }
+        ]
+    }
+}
